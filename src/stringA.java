@@ -1,4 +1,4 @@
-import java.io.IOException;
+
 import java.util.Scanner;
 
 public class stringA {
@@ -12,7 +12,7 @@ public class stringA {
 
     }
 
-    public static boolean isDigit(String s)
+    private static boolean isDigit(String s)
     {
         try {
             Integer.parseInt(s);
